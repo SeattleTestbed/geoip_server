@@ -1,8 +1,8 @@
-portability/*
-geoip_server/*
-repy_v2/*
-utf/*
-dist/LICENSE.txt
+dependencies/portability/*
+../*
+dependencies/repy_v2/*
+common/*
+common/utf/*
 # Tests
-test portability/tests/*
-test repy_v2/testsV2/*
+test dependencies/portability/tests/*
+test dependencies/repy_v2/testsV2/*
