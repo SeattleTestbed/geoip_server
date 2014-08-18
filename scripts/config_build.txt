@@ -1,8 +1,6 @@
-dependencies/portability/*
+portability/*
 ../*
-dependencies/repy_v2/*
+repy_v2/*
 common/*
 common/utf/*
 # Tests
-test dependencies/portability/tests/*
-test dependencies/repy_v2/testsV2/*
