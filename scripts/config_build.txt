@@ -1,6 +1,7 @@
-DEPENDENCIES/portability/*
 ./*
+DEPENDENCIES/portability/*
 DEPENDENCIES/repy_v2/*
 DEPENDENCIES/common/*
-DEPENDENCIES/common/utf/*
+
 # Tests
+# test DEPENDENCIES/common/utf/*
