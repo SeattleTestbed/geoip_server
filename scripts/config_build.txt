@@ -1,6 +1,6 @@
-portability/*
-../*
-repy_v2/*
-common/*
-common/utf/*
+DEPENDENCIES/portability/*
+./*
+DEPENDENCIES/repy_v2/*
+DEPENDENCIES/common/*
+DEPENDENCIES/common/utf/*
 # Tests
