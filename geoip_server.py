@@ -15,11 +15,14 @@
 
   Where /path/to/GeoIP.dat is the path to a legal GeoIP database and PORT is
   the port on which to host the server. Databases can be downloaded at
-  http://www.maxmind.com/app/ip-location.
-
+  http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+  
   More information on pygeoip at http://code.google.com/p/pygeoip/.
   More information on geoip_server.py at
   http://seattle.poly.edu/wiki/GeoIPServer
+
+  "This product includes GeoLite data created by MaxMind, available from
+  http://www.maxmind.com."
 """
 
 import sys
