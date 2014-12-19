@@ -30,6 +30,13 @@ import xmlrpclib
 from SimpleXMLRPCServer import SimpleXMLRPCServer
 
 
+# Workaround for SeattleTestbed/geoip_server#6,
+# the geoip_server blocking on clients that don't send anything.
+import socket
+socket.setdefaulttimeout(5)
+
+
+
 class SafeGeoIPServer(pygeoip.GeoIP):
   """
   <Purpose>
